@@ -17,8 +17,6 @@ b {
     font-size: 1.2em;
 }
 .status-bar {
-    position: absolute;
-    top: 0;
     display: block;
     width: 100%;
 }

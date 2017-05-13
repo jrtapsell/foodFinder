@@ -1,3 +1,8 @@
+{{#if open}}
+    <div class="mdl-card__supporting-text mdl-grid status-bar open"></div>
+{{else}}
+    <div class="mdl-card__supporting-text mdl-grid status-bar closed"></div>
+{{/if}}
 <div onclick="javascript:window.location='{{location.link}}'" class="mdl-card__title" style="background: url({{location.image}}) center/cover;">
     <h2 class="mdl-card__title-text">{{location.displayName}}</h2>
 </div>
@@ -15,10 +20,3 @@
         <b>Not open today</b>
     </div>
 {{/each}}
-{{#if open}}
-<div class="mdl-card__supporting-text mdl-grid status-bar open">
-</div>
-{{else}}
-    <div class="mdl-card__supporting-text mdl-grid status-bar closed">
-    </div>
-{{/if}}
