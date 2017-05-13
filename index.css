@@ -22,9 +22,9 @@ b {
 }
 
 .status-bar.open {
-    background: #61a83e;
+    background: repeating-linear-gradient( 45deg, #61a83e, #61a83e 10px, #365d22 10px, #365d22 20px );
 }
 
 .status-bar.closed {
-    background: #a93e3e;
+    background: repeating-linear-gradient( 45deg, #a93e3e, #a93e3e 10px, #5d2222 10px, #5d2222 20px );
 }
