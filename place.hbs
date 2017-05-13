@@ -15,3 +15,10 @@
         <b>Not open today</b>
     </div>
 {{/each}}
+{{#if open}}
+<div class="mdl-card__supporting-text mdl-grid status-bar open">
+</div>
+{{else}}
+    <div class="mdl-card__supporting-text mdl-grid status-bar closed">
+    </div>
+{{/if}}

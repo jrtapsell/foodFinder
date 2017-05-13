@@ -16,3 +16,17 @@
 b {
     font-size: 1.2em;
 }
+.status-bar {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+}
+
+.status-bar.open {
+    background: #61a83e;
+}
+
+.status-bar.closed {
+    background: #a93e3e;
+}
