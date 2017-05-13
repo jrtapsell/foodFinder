@@ -10,7 +10,8 @@
       "Sunday": []
     },
     "displayName": "The Hub",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/chatting-in-the-hub.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/chatting-in-the-hub.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/the-hub.aspx"
   },
   "crosslands": {
     "hours": {
@@ -23,7 +24,8 @@
       "Sunday": [[64800, 82800]]
     },
     "displayName": "Crosslands",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/crosslands.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/crosslands.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/crosslands.aspx"
   },
   "founders": {
     "hours": {
@@ -36,7 +38,8 @@
       "Sunday": [[41400,48600], [63000, 70200]]
     },
     "displayName": "Founders Dining Hall",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/students-getting-food-in-founders-dining-hall.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/students-getting-food-in-founders-dining-hall.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/founders-dining-hall.aspx"
   },
   "bedford": {
     "hours": {
@@ -49,7 +52,8 @@
       "Sunday": [[30600, 57600]]
     },
     "displayName": "Bedford",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/relaxing-in-bedford-café.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/relaxing-in-bedford-café.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/bedford-caf%C3%A9.aspx"
   },
   "boilerhouse": {
     "hours": {
@@ -62,7 +66,8 @@
       "Sunday": []
     },
     "displayName": "Boilerhouse",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/boilerhouse-cafe.JPG"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/boilerhouse-cafe.JPG",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/boilerhouse-cafe.aspx"
   },
   "coffee_and_cake": {
     "hours": {
@@ -75,7 +80,8 @@
       "Sunday": [[27000, 39600]]
     },
     "displayName": "Coffee and Cake",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/students-having-coffee-and-cake.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/students-having-coffee-and-cake.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/coffee-cake.aspx"
   },
   "tommys": {
     "hours": {
@@ -88,7 +94,8 @@
       "Sunday": []
     },
     "displayName": "Tommy's",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/students-union.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/students-union.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/tommys.aspx"
   },
   "sushop": {
     "hours": {
@@ -101,7 +108,8 @@
       "Sunday": [[36000, 72000]]
     },
     "displayName": "SU Shop",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/union-shop-sign.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/union-shop-sign.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/union-shop.aspx"
   },
   "imagine": {
     "hours": {
@@ -114,6 +122,7 @@
       "Sunday": [[43200, 72000]]
     },
     "displayName": "Imagine",
-    "image": "https://www.royalholloway.ac.uk/students/assets/img/imagine-cafe-on-campus.jpg"
+    "image": "https://www.royalholloway.ac.uk/students/assets/img/imagine-cafe-on-campus.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/imagine.aspx"
   }
 }
