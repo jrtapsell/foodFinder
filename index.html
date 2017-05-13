@@ -49,7 +49,7 @@
     MIDNIGHT.setMilliseconds(0);
     Handlebars.registerHelper('time', function(arg) {
         var time = new Date(MIDNIGHT.getTime() + (arg * 1000));
-        return time.toLocaleTimeString().substring(0,5);
+        return time.toLocaleTimeString();
     });
     var currentTime = ((new Date().getTime()) - MIDNIGHT.getTime()) / 1000;
     $.get("data.json", function (data) {
