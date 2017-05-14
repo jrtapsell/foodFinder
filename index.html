@@ -113,8 +113,8 @@
                 newCell.html(template(data));
                 newCell.appendTo($pageContent);
             });
-        };
-        today = () => renderDay(day_number, false);
+        }
+        today = function() {renderDay(day_number, false)};
         render_day = renderDay;
         today();
     }
