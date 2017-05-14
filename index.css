@@ -12,6 +12,7 @@
 }
 .mdl-card__supporting-text {
     text-align: center;
+    flex: 2;
 }
 b {
     font-size: 1.2em;
@@ -20,6 +21,7 @@ b {
     display: block;
     width: 100%;;
     height: 0;
+    flex: 0;
 }
 
 .status-bar.open {
