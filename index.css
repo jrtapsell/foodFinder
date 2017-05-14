@@ -29,6 +29,10 @@ b {
     background: repeating-linear-gradient( 45deg, #a93e3e, #a93e3e 10px, #5d2222 10px, #5d2222 20px );
 }
 
+.status-bar.future {
+    background: repeating-linear-gradient( 45deg, #503ea8, #503ea8 10px, #2c225d 10px, #2c225d 20px );
+}
+
 html {
     background: #ccc;
 }
