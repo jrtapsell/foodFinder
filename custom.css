@@ -8,6 +8,11 @@ html {
     text-shadow: none;
 }
 
+@font-face {
+    font-family: Clock;
+    src: url(font.ttf);
+}
+
 ::selection {
     background: #b3d4fc;
     text-shadow: none;

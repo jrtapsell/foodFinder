@@ -39,3 +39,8 @@ b {
 html {
     background: #ccc;
 }
+
+.time {
+    font-family: Clock;
+    font-size: 3em;
+}
