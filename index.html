@@ -13,6 +13,19 @@
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.js" integrity="sha256-1a54WaWEbX3FFsS2Ko6dUSj50JUeH/KeLY5IU2HbIBg=" crossorigin="anonymous"></script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            console.log('CLIENT: service worker registration in progress.');
+            navigator.serviceWorker.register('./service_worker.js').then(function() {
+                console.log('CLIENT: service worker registration complete.');
+            }, function() {
+                console.log('CLIENT: service worker registration failure.');
+            });
+        } else {
+            console.log('CLIENT: service worker is not supported.');
+        }
+    </script>
 </head>
 <body>
 <!-- Always shows a header, even in smaller screens. -->
