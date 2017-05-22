@@ -13,10 +13,12 @@
 {{#each hours}}
     <div class="mdl-card__supporting-text mdl-grid">
         <div class="mdl-cell mdl-cell--6-col">
-        <b>Opens:</b><br/> {{time this.[0]}}
+        <b>Opens:</b>
+            <p style="font-size: 2em">{{time this.[0]}}</p>
         </div>
         <div class="mdl-cell mdl-cell--6-col">
-        <b>Closes:</b><br/> {{time this.[1]}}
+        <b>Closes:</b>
+            <p style="font-size: 2em">{{time this.[1]}}</p>
         </div>
     </div>
 {{else}}

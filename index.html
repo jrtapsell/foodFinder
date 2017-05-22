@@ -47,7 +47,7 @@
     }
     Handlebars.registerHelper('time', function(arg) {
         var time = new Date(today_midnight().getTime() + (arg * 1000));
-        return time.toLocaleTimeString();
+        return time.toLocaleTimeString().substr(0,5);
     });
     const DAYS = [
             "Sunday",
