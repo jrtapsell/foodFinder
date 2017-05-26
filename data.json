@@ -111,18 +111,17 @@
     "image": "img/shop.jpg",
     "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/union-shop.aspx"
   },
-  "imagine": {
+  "packhorse": {
     "hours": {
-      "Monday": [[39600, 86400]],
-      "Tuesday": [[39600, 86400]],
-      "Wednesday": [[39600, 86400]],
-      "Thursday": [[39600, 86400]],
-      "Friday": [[39600, 86400]],
-      "Saturday": [[43200, 86400]],
-      "Sunday": [[43200, 72000]]
+      "Monday": [[36000, 75600]],
+      "Tuesday": [[36000, 75600]],
+      "Wednesday": [[36000, 75600]],
+      "Thursday": [[36000, 75600]],
+      "Friday": [[36000, 75600]],
+      "Saturday": [[36000, 75600]],
+      "Sunday": [[43200, 75600]]
     },
-    "displayName": "Imagine",
-    "image": "img/imagine.jpg",
-    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/imagine.aspx"
+    "displayName": "The packhorse",
+    "link": "https://www.su.rhul.ac.uk/thepackhorse/"
   }
 }

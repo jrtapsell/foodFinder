@@ -44,3 +44,8 @@ html {
     font-family: Clock;
     font-size: 3em;
 }
+
+#footer {
+    text-align: center;
+    background-color: #2d3a4a;
+}
