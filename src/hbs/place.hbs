@@ -1,0 +1,30 @@
+<a href="{{location.link}}">
+{{#if open}}
+    <div class="mdl-card__supporting-text mdl-grid status-bar open"></div>
+{{/if}}
+{{#if closed}}
+    <div class="mdl-card__supporting-text mdl-grid status-bar closed"></div>
+{{/if}}
+{{#if future}}
+    <div class="mdl-card__supporting-text mdl-grid status-bar future"></div>
+{{/if}}
+        <div onclick="javascript:window.location='{{location.link}}'" class="mdl-card__title{{#if location.image}} image-icon" data-image="{{location.image}}"{{else}}"{{/if}}">
+    <h2 class="mdl-card__title-text">{{location.displayName}}</h2>
+</div>
+{{#each hours}}
+    <div class="mdl-card__supporting-text mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col">
+        <b>Opens:</b>
+            <p class="time">{{time this.[0]}}</p>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col">
+        <b>Closes:</b>
+            <p class="time">{{time this.[1]}}</p>
+        </div>
+    </div>
+{{else}}
+    <div class="mdl-card__supporting-text">
+        <b>Not open today</b>
+    </div>
+{{/each}}
+</a>

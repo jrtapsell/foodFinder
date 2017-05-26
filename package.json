@@ -1,0 +1,27 @@
+{
+  "name": "food-finder",
+  "version": "1.0.0",
+  "description": "foodFinder2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrtapsell/foodFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrtapsell/foodFinder/issues"
+  },
+  "homepage": "https://github.com/jrtapsell/foodFinder#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^4.0.0",
+    "handlebars": "^4.0.10",
+    "sw-precache": "^5.1.1"
+  }
+}
