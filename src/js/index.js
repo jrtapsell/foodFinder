@@ -86,11 +86,11 @@ $.get("data/data.json", function (data) {
   render_day = renderDay;
   today();
 });
-console.log("A");
+
 $("#daySelect").change(function (event) {
   direct(event.target.value);
   console.log(event);
-})
+});
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
