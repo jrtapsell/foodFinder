@@ -7633,3 +7633,7 @@ iframe.heightSet {
 .demo-wrapper iframe {
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
+
+header.mdl-layout__header.is-casting-shadow {
+    display: block !important;
+}
