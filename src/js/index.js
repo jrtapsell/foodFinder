@@ -86,7 +86,7 @@ $.get("data/data.json", function (data) {
   render_day = renderDay;
   today();
 });
-
+console.log("A");
 $("#daySelect").change(function (event) {
   direct(event.target.value);
   console.log(event);
