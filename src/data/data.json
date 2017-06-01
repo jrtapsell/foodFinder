@@ -122,6 +122,7 @@
       "Sunday": [[43200, 75600]]
     },
     "displayName": "The Packhorse",
-    "link": "https://www.su.rhul.ac.uk/thepackhorse/"
+    "link": "https://www.su.rhul.ac.uk/thepackhorse/",
+    "image": "img/packhorse.svg"
   }
 }
