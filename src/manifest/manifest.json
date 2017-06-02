@@ -1,0 +1,16 @@
+{
+  "short_name": "Food Finder",
+  "name": "RHUL Food Finder",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2d3a4a",
+  "background_color": "#fff",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
