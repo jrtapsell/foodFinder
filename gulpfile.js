@@ -46,4 +46,4 @@ gulp.task('sw-installer', copy("src/sw/*", "dist/"));
 gulp.task('manifest', copy("src/manifest/manifest.json", "dist/"));
 
 
-gulp.task('default', gulp.series('templates', 'css', 'data', 'img', 'js', 'res','index', 'sw-installer', 'manifest.json', 'sw-maker', 'extra'));
+gulp.task('default', gulp.series('templates', 'css', 'data', 'img', 'js', 'res','index', 'sw-installer', 'manifest', 'sw-maker', 'extra'));
