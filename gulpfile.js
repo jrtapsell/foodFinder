@@ -43,6 +43,7 @@ gulp.task('res', copy("src/res/*", "dist/res/"));
 gulp.task('index', copy("src/index.html", "dist/"));
 gulp.task('extra', copy("extra/*", "dist/"));
 gulp.task('sw-installer', copy("src/sw/*", "dist/"));
+gulp.task('manifest', copy("src/manifest/manifest.json", "dist/"));
 
 
-gulp.task('default', gulp.series('templates', 'css', 'data', 'img', 'js', 'res','index', 'sw-installer', 'sw-maker', 'extra'));
+gulp.task('default', gulp.series('templates', 'css', 'data', 'img', 'js', 'res','index', 'sw-installer', 'manifest.json', 'sw-maker', 'extra'));
