@@ -1,67 +1,25 @@
 {
-  "hub": {
-    "hours": {
-      "Monday": [[43200, 52200], [61200, 70200]],
-      "Tuesday": [[43200, 52200], [61200, 70200]],
-      "Wednesday": [[43200, 52200], [61200, 70200]],
-      "Thursday": [[43200, 52200], [61200, 70200]],
-      "Friday": [[43200, 52200], [61200, 70200]],
-      "Saturday": [[41400, 48600], [63000, 70200]],
-      "Sunday": []
-    },
-    "displayName": "The Hub",
-    "image": "img/hub.jpg",
-    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/the-hub.aspx"
-  },
   "crosslands": {
-    "hours": {
-      "Monday": [[30600, 82800]],
-      "Tuesday": [[30600, 82800]],
-      "Wednesday": [[30600, 86400]],
-      "Thursday": [[30600, 82800]],
-      "Friday": [[30600, 86400]],
-      "Saturday": [],
-      "Sunday": [[64800, 82800]]
-    },
-    "displayName": "Crosslands",
-    "image": "img/crosslands.jpg",
-    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/crosslands.aspx"
-  },
-  "founders": {
-    "hours": {
-      "Monday": [[28800, 36000], [43200, 50400], [63000, 70200]],
-      "Tuesday": [[28800, 36000], [43200, 50400], [63000, 70200]],
-      "Wednesday": [[28800, 36000], [43200, 50400], [63000, 70200]],
-      "Thursday": [[28800, 36000], [43200, 50400], [63000, 70200]],
-      "Friday": [[28800, 36000], [43200, 50400], [63000, 70200]],
-      "Saturday": [],
-      "Sunday": [[41400,48600], [63000, 70200]]
-    },
-    "displayName": "Founders Dining Hall",
-    "image": "img/founders.jpg",
-    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/founders-dining-hall.aspx"
-  },
-  "bedford": {
     "hours": {
       "Monday": [[30600, 57600]],
       "Tuesday": [[30600, 57600]],
       "Wednesday": [[30600, 57600]],
       "Thursday": [[30600, 57600]],
-      "Friday": [[30600, 63000]],
-      "Saturday": [[30600, 63000]],
-      "Sunday": [[30600, 57600]]
+      "Friday": [[30600, 57600]],
+      "Saturday": [],
+      "Sunday": []
     },
-    "displayName": "Bedford",
-    "image": "img/bedford.jpg",
-    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/bedford-caf%C3%A9.aspx"
+    "displayName": "Crosslands",
+    "image": "img/crosslands.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/crosslands.aspx"
   },
   "boilerhouse": {
     "hours": {
-      "Monday": [[30600, 64800]],
-      "Tuesday": [[30600, 64800]],
-      "Wednesday": [[30600, 64800]],
-      "Thursday": [[30600, 64800]],
-      "Friday": [[30600, 64800]],
+      "Monday": [[30600, 66600]],
+      "Tuesday": [[30600, 66600]],
+      "Wednesday": [[30600, 66600]],
+      "Thursday": [[30600, 66600]],
+      "Friday": [[30600, 66600]],
       "Saturday": [],
       "Sunday": []
     },
@@ -71,41 +29,27 @@
   },
   "coffee_and_cake": {
     "hours": {
-      "Monday": [[27000, 61200]],
-      "Tuesday": [[27000, 61200]],
-      "Wednesday": [[27000, 61200]],
-      "Thursday": [[27000, 61200]],
-      "Friday": [[27000, 61200]],
-      "Saturday": [[27000, 70200]],
+      "Monday": [[27000, 39600]],
+      "Tuesday": [[27000, 39600]],
+      "Wednesday": [[27000, 39600]],
+      "Thursday": [[27000, 39600]],
+      "Friday": [[27000, 39600]],
+      "Saturday": [[27000, 39600]],
       "Sunday": [[27000, 39600]]
     },
     "displayName": "Coffee and Cake",
     "image": "img/cake.jpg",
     "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/coffee-cake.aspx"
   },
-  "tommys": {
-    "hours": {
-      "Monday": [[39600, 54000], [64800, 79200]],
-      "Tuesday": [[39600, 54000], [64800, 79200]],
-      "Wednesday": [[39600, 54000], [64800, 79200]],
-      "Thursday": [[39600, 54000], [64800, 79200]],
-      "Friday": [[39600, 54000], [64800, 79200]],
-      "Saturday": [],
-      "Sunday": []
-    },
-    "displayName": "Tommy's",
-    "image": "img/tommys.jpg",
-    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/tommys.aspx"
-  },
   "sushop": {
     "hours": {
-      "Monday": [[28800, 79200]],
-      "Tuesday": [[28800, 79200]],
-      "Wednesday": [[28800, 79200]],
-      "Thursday": [[28800, 79200]],
-      "Friday": [[28800, 79200]],
-      "Saturday": [[36000, 72000]],
-      "Sunday": [[36000, 72000]]
+      "Monday": [[34200, 57600]],
+      "Tuesday": [[34200, 57600]],
+      "Wednesday": [[34200, 57600]],
+      "Thursday": [[34200, 57600]],
+      "Friday": [[34200, 57600]],
+      "Saturday": [[34200, 57600]],
+      "Sunday": [[34200, 57600]]
     },
     "displayName": "SU Shop",
     "image": "img/shop.jpg",
@@ -113,13 +57,13 @@
   },
   "packhorse": {
     "hours": {
-      "Monday": [[36000, 75600]],
-      "Tuesday": [[36000, 75600]],
-      "Wednesday": [[36000, 75600]],
-      "Thursday": [[36000, 75600]],
-      "Friday": [[36000, 75600]],
-      "Saturday": [[36000, 75600]],
-      "Sunday": [[43200, 75600]]
+      "Monday": [[36000, 85500]],
+      "Tuesday": [[36000, 85500]],
+      "Wednesday": [[36000, 85500]],
+      "Thursday": [[36000, 85500]],
+      "Friday": [[36000, 85500]],
+      "Saturday": [[36000, 85500]],
+      "Sunday": [[39600, 82800]]
     },
     "displayName": "The Packhorse",
     "link": "https://www.su.rhul.ac.uk/thepackhorse/",
