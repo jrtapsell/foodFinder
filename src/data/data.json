@@ -1,4 +1,18 @@
 {
+  "hub": {
+    "hours": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "displayName": "The Hub",
+    "image": "img/hub.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/the-hub.aspx"
+  },
   "crosslands": {
     "hours": {
       "Monday": [[30600, 57600]],
@@ -12,6 +26,34 @@
     "displayName": "Crosslands",
     "image": "img/crosslands.jpg",
     "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/crosslands.aspx"
+  },
+  "founders": {
+    "hours": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "displayName": "Founders Dining Hall",
+    "image": "img/founders.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/founders-dining-hall.aspx"
+  },
+  "bedford": {
+    "hours": {
+      "Monday": [[30600, 57600]],
+      "Tuesday": [[30600, 57600]],
+      "Wednesday": [[30600, 57600]],
+      "Thursday": [[30600, 57600]],
+      "Friday": [[30600, 63000]],
+      "Saturday": [[30600, 63000]],
+      "Sunday": [[30600, 57600]]
+    },
+    "displayName": "Bedford",
+    "image": "img/bedford.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/bedford-caf%C3%A9.aspx"
   },
   "boilerhouse": {
     "hours": {
@@ -40,6 +82,20 @@
     "displayName": "Coffee and Cake",
     "image": "img/cake.jpg",
     "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/coffee-cake.aspx"
+  },
+  "tommys": {
+    "hours": {
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
+    },
+    "displayName": "Tommy's",
+    "image": "img/tommys.jpg",
+    "link": "https://www.royalholloway.ac.uk/students/campus-life/find-places-to-eat-drink-and-shop-on-campus/tommys.aspx"
   },
   "sushop": {
     "hours": {
