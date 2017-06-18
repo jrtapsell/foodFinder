@@ -104,8 +104,8 @@
       "Wednesday": [[34200, 57600]],
       "Thursday": [[34200, 57600]],
       "Friday": [[34200, 57600]],
-      "Saturday": [[34200, 57600]],
-      "Sunday": [[34200, 57600]]
+      "Saturday": [],
+      "Sunday": []
     },
     "displayName": "SU Shop",
     "image": "img/shop.jpg",
