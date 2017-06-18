@@ -5,6 +5,7 @@ var wrap = require('gulp-wrap');
 var declare = require('gulp-declare');
 var concat = require('gulp-concat');
 var merge = require('merge-stream');
+var sitemap = require('gulp-sitemap');
 var rename = require("gulp-rename");
 
 gulp.task('templates', function(){
@@ -92,5 +93,14 @@ gulp.task('extra', copy("extra/*", "dist/"));
 gulp.task('sw-installer', copy("src/sw/*", "dist/"));
 gulp.task('manifest', copy("src/manifest/manifest.json", "dist/"));
 
+gulp.task('sitemap', function () {
+  return gulp.src('dist/**/*.html', {
+      read: false
+    })
+    .pipe(sitemap({
+      siteUrl: 'http://food.jrtapsell.co.uk'
+    }))
+    .pipe(gulp.dest('./dist'));
+});
 
-gulp.task('default', gulp.series('templates', 'css', 'data', 'img', 'js', 'res','index', 'sw-installer', 'manifest', 'singlepages', 'sw-maker', 'extra'));
+gulp.task('default', gulp.series('templates', 'css', 'data', 'img', 'js', 'res','index', 'sw-installer', 'manifest', 'singlepages', 'sw-maker', 'extra', 'sitemap'));
