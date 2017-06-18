@@ -43,13 +43,13 @@
   },
   "bedford": {
     "hours": {
-      "Monday": [[30600, 57600]],
-      "Tuesday": [[30600, 57600]],
-      "Wednesday": [[30600, 57600]],
-      "Thursday": [[30600, 57600]],
-      "Friday": [[30600, 63000]],
-      "Saturday": [[30600, 63000]],
-      "Sunday": [[30600, 57600]]
+      "Monday": [],
+      "Tuesday": [],
+      "Wednesday": [],
+      "Thursday": [],
+      "Friday": [],
+      "Saturday": [],
+      "Sunday": []
     },
     "displayName": "Bedford",
     "image": "img/bedford.jpg",
