@@ -53,7 +53,8 @@ $.get("data/data.json", function (data) {
       var hours = value["hours"][DAYS[day_number]];
       var data = {
         "location": value,
-        "hours": hours
+        "hours": hours,
+        "key": key
       };
       if (future) {
         data["future"] = true;

@@ -8,21 +8,21 @@
     style-src 'self' fonts.googleapis.com fonts.gstatic.com;
     font-src 'self' fonts.gstatic.com">
     <meta charset="UTF-8">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ccc">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RHUL Food Finder</title>
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="img/icon.png">
+    <title>RHUL Food Finder - {{title}}</title>
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" href="/img/icon.png">
     <meta name="description" content="A simple tool (still in beta) to find the nearest place on campus that is open and that you can get food from at Royal Holloway, Univeristy of London">
-    <script src="res/jq.js"></script>
-    <script src="res/hbr.js"></script>
+    <script src="/res/jq.js"></script>
+    <script src="/res/hbr.js"></script>
 
-    <script defer src="res/material.js"></script>
-    <script defer src="js/templates.js"></script>
-    <script defer src="js/index.js"></script>
-    <script src="installer.js"></script>
+    <script defer src="/res/material.js"></script>
+    <script defer src="/js/templates.js"></script>
+    {{#> page_head}}{{/page_head}}
+    <script src="/installer.js"></script>
 </head>
 <body>
 <!-- Always shows a header, even in smaller screens. -->
@@ -30,19 +30,19 @@
     <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
             <!-- Title -->
-            <img class="img-icon" src="img/icon.svg">
-            <h1 class="mdl-layout-title">RHUL Food Finder</h1>
+            <a href="/"><img class="img-icon" src="/img/icon.svg"></a>
+            <h1 class="mdl-layout-title">RHUL Food Finder - {{title}}</h1>
             <div class="mdl-layout-spacer"></div>
-            <select id="daySelect">
-            </select>
+{{#> end_header}}{{/end_header}}
         </div>
     </header>
     <main class="mdl-layout__content">
         <div class="mdl-grid">
-        <div class="mdl-layout-spacer"></div>
-        <div class="mdl-cell--10-col mdl-cell mdl-grid" id="pageContent">
-        </div>
-        <div class="mdl-layout-spacer"></div>
+            <div class="mdl-layout-spacer"></div>
+            <div class="mdl-cell--10-col mdl-cell mdl-grid" id="pageContent">
+                {{#> content}}{{/content}}
+            </div>
+            <div class="mdl-layout-spacer"></div>
         </div>
     </main>
     <footer class="mdl-mega-footer" id="footer">Made by <a href="https://www.jrtapsell.co.uk">James Tapsell</a>, this site is not affiliated with Royal Holloway, nor its SU, all times are for food service only</footer>

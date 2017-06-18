@@ -1,0 +1,34 @@
+{{#*inline "end_header"}}
+
+<a href="{{link}}"><button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">View official page</button></a>
+{{/inline}}
+
+{{#*inline "content"}}
+<table class="mdl-cell--12-col mdl-cell mdl-data-table">
+    <tr>
+        <th>
+            Day
+        </th>
+        <th>
+            Hours
+        </th>
+    </tr>
+    {{#each hours}}
+        <tr>
+            <td>
+                {{@key}}
+            </td>
+            <td>
+                {{#each this}}
+                    {{time this.[0]}} - {{time this.[1]}}
+                {{else}}
+                    Closed
+                {{/each}}
+            </td>
+        </tr>
+    {{/each}}
+</table>
+{{/inline}}
+
+
+{{> templates/shell title=displayName}}
